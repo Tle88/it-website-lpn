@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
-        <a className="navbar-brand" href="/">My Restaurant</a>
+        <a className="navbar-brand" href="/">วิทยาลัยเทคโนโลยีโปลิเทคนิคลานนา</a>
         <button
           className="navbar-toggler"
           type="button"
@@ -22,10 +22,13 @@ function Navbar() {
               <a className="nav-link active" aria-current="page" href="/">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/about">About</a>
+              <a className="nav-link" href="#About">About</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/contact">Contact</a>
+              <a className="nav-link" href="#Courses">Courses</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#Contact">Contact</a>
             </li>
           </ul>
         </div>
